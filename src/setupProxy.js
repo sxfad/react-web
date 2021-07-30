@@ -1,8 +1,4 @@
-// const proxy = require('http-proxy-middleware');
 const {createProxyMiddleware} = require('http-proxy-middleware');
-
-// server.use(['/api', '/api2'], createProxyMiddleware(apiPaths['/api']));
-
 
 // 前端web服务代理配置
 module.exports = function(app) {
