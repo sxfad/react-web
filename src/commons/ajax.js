@@ -1,7 +1,7 @@
 import Ajax, {createHoc, createHooks} from '@ra-lib/ajax';
 import handleError from './handle-error';
 import handleSuccess from './handle-success';
-import {getToken} from 'src/commons/index';
+import {getToken} from './index';
 
 const AJAX_PREFIX = '/api';
 const AJAX_TIMEOUT = 1000 * 60;
