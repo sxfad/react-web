@@ -5,6 +5,7 @@
   "scripts": {
     "start": "NODE_ENV=development PORT=3001 node src/server.js",
     "build": "next build",
+    "static": "next build && next export",
     "start:pro": "NODE_ENV=production PORT=3003 node src/server.js",
     "lint": "next lint"
   },

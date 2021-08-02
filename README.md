@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+基于 [Next.js](https://nextjs.org/) 服务端渲染框架，适用于官网等需要SEO的项目。
 
 ## 安装依赖
 
